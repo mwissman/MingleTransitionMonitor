@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>MingleTransitionMonitor</id>
+        <version>$version$</version>
+        <title>Mingle Transition Monitor</title>
+        <authors>mwissman</authors>
+        <owners>Mingle Transtion Monitor Project</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Monitors Mingle cards</description>
+        <copyright>Copyright 2014</copyright>
+        <tags></tags>
+    </metadata>
+</package>

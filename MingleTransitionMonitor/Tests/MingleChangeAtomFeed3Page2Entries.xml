@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:mingle="http://www.thoughtworks-studios.com/ns/mingle">
+  <title>Mingle Events: project1</title>
+  <id>http://mingle/api/v2/projects/project1/feeds/events.xml</id>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml" rel="current"/>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml" rel="self"/>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml?page=8" rel="next"/>
+  <updated>2012-11-28T19:54:08Z</updated>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/739061</id>
+    <title>Team1TestTask #37 Test Script changed</title>
+    <updated>2012-11-28T19:52:27Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #37"/>
+    <link href="http://mingle/projects/project1/cards/37" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #37"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #37 (v2)"/>
+    <link href="http://mingle/projects/project1/cards/37?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #37 (v2)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>StatusTest</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value>New</old_value>
+          <new_value>Requested</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11283.xml">
+            <name>Requested By</name>
+            <position nil="true"></position>
+            <data_type>user</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <user url="http://mingle/api/v2/users/6.xml">
+              <name>Matthew Wissman</name>
+              <login>mwissman</login>
+            </user>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11576.xml">
+            <name>Priority</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Normal</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11579.xml">
+            <name>Moved to Requested on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11287.xml">
+            <name>Environment</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/2.xml">
+              <number type="integer">2</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11572.xml">
+            <name>Category</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/21.xml">
+              <number type="integer">21</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11573.xml">
+            <name>Database</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/4.xml">
+              <number type="integer">4</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/12964.xml">
+            <name>ApplyType</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Upgrade</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/12798.xml">
+            <name>ApplyBy</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>End of Day</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/739059</id>
+    <title>Team1Task #37 Test Script created</title>
+    <updated>2012-11-28T19:51:42Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #37"/>
+    <link href="http://mingle/projects/project1/cards/37" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #37"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #37 (v1)"/>
+    <link href="http://mingle/projects/project1/cards/37?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #37 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://mingle/api/v2/projects/project1/card_types/1798.xml">
+              <name>Team1Task</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Test Script</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>New</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11304.xml">
+            <name>Team</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Corp Sys</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11578.xml">
+            <name>Moved to New on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11586.xml">
+            <name>Date - Added</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/727669</id>
+    <title>Team1Task #36 asdf changed</title>
+    <updated>2012-11-09T19:32:59Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/36.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #36"/>
+    <link href="http://mingle/projects/project1/cards/36" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #36"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/36.xml?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #36 (v2)"/>
+    <link href="http://mingle/projects/project1/cards/36?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #36 (v2)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value>New</old_value>
+          <new_value>Requested</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11283.xml">
+            <name>Requested By</name>
+            <position nil="true"></position>
+            <data_type>user</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <user url="http://mingle/api/v2/users/6.xml">
+              <name>Matthew Wissman</name>
+              <login>mwissman</login>
+            </user>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11576.xml">
+            <name>Priority</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Normal</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11579.xml">
+            <name>Moved to Requested on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-09</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11287.xml">
+            <name>Environment</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/2.xml">
+              <number type="integer">2</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11572.xml">
+            <name>Category</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/21.xml">
+              <number type="integer">21</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11573.xml">
+            <name>Database</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://mingle/api/v2/projects/project1/cards/12.xml">
+              <number type="integer">12</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/12964.xml">
+            <name>ApplyType</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Upgrade</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/12798.xml">
+            <name>ApplyBy</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>noon</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+
+
+</feed>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:mingle="http://www.thoughtworks-studios.com/ns/mingle">
+  <title>Mingle Events: project1</title>
+  <id>http://mingle/api/v2/projects/project1/feeds/events.xml</id>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml" rel="current"/>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml" rel="self"/>
+  <link href="http://mingle/api/v2/projects/project1/feeds/events.xml?page=8" rel="next"/>
+  <updated>2012-11-28T19:54:08Z</updated>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/739066</id>
+    <title>Team1TestTask #37 Test Script changed</title>
+    <updated>2012-11-28T19:54:08Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #37"/>
+    <link href="http://mingle/projects/project1/cards/37" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #37"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml?version=5" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #37 (v5)"/>
+    <link href="http://mingle/projects/project1/cards/37?version=5" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #37 (v5)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>StatusTest</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value>Ready to Be Executed</old_value>
+          <new_value>Completed</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11301.xml">
+            <name>Completed By</name>
+            <position nil="true"></position>
+            <data_type>user</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <user url="http://mingle/api/v2/users/6.xml">
+              <name>Matthew Wissman</name>
+              <login>mwissman</login>
+            </user>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11584.xml">
+            <name>Moved to Completed on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11585.xml">
+            <name>Completed On</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/739065</id>
+    <title>Team1TestTask #37 Test Script changed</title>
+    <updated>2012-11-28T19:53:43Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #37"/>
+    <link href="http://mingle/projects/project1/cards/37" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #37"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml?version=4" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #37 (v4)"/>
+    <link href="http://mingle/projects/project1/cards/37?version=4" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #37 (v4)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>StatusTest</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value>In Review</old_value>
+          <new_value>Ready to Be Executed</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11583.xml">
+            <name>Moved to Ready to Be Executed on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://mingle/projects/project1/events/index/739064</id>
+    <title>Team1TestTask #37 Test Script changed</title>
+    <updated>2012-11-28T19:52:50Z</updated>
+    <author>
+      <name>Matthew Wissman</name>
+      <email>email@foo.blah</email>
+      <uri>http://mingle/api/v2/users/6.xml</uri>
+    </author>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Team1Task #37"/>
+    <link href="http://mingle/projects/project1/cards/37" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Team1Task #37"/>
+    <link href="http://mingle/api/v2/projects/project1/cards/37.xml?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Team1Task #37 (v3)"/>
+    <link href="http://mingle/projects/project1/cards/37?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Team1Task #37 (v3)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11261.xml">
+            <name>StatusTest</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value>Requested</old_value>
+          <new_value>In Review</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11300.xml">
+            <name>Reviewed By</name>
+            <position nil="true"></position>
+            <data_type>user</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <user url="http://mingle/api/v2/users/6.xml">
+              <name>Matthew Wissman</name>
+              <login>mwissman</login>
+            </user>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/11582.xml">
+            <name>Moved to In Review on</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2012-11-28</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://mingle/api/v2/projects/project1/property_definitions/12797.xml">
+            <name>TaskType</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>asdf</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  
+
+</feed>

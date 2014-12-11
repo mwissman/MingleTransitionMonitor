@@ -1,0 +1,10 @@
+bin/
+obj/
+testsOutput/
+*.user
+*.suo
+commondlls/
+EmailGroups/
+MingleTransitionMonitor/SolutionInfo.cs
+MingleTransitionMonitor/testOutput/
+MingleTransitionMonitor/_deploy/
